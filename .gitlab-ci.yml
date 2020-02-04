@@ -1,0 +1,10 @@
+stages:
+- test
+
+ubuntu:test:
+    stage: test
+    script:
+    - ./message.sh
+    tags:
+    - ubuntu
+
